@@ -75,6 +75,18 @@ h1 {
     
 }
 
+.expand {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+}
+button:hover {
+  opacity: .5;
+}
+
 .question-container {
   display: flex;
   justify-content: space-between;

@@ -17,6 +17,7 @@ answerButton.addEventListener('click', function showAnswer() {
     }
 })
 
+
 answerButton2.addEventListener('click', function showAnswer() {
     if(answerButton2.getAttribute('src') === 'assets/images/icon-plus.svg') {
         answerButton2.setAttribute('src', 'assets/images/icon-minus.svg');
