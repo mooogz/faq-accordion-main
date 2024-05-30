@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](faq-accordion-screenshot.png)
+![](faq-accordion-main-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-jxdw-Om4oN)
+- Live Site URL: [Github](https://mooogz.github.io/faq-accordion-main/)
 
 ### Built with
 
