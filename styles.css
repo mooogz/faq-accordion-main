@@ -1,0 +1,148 @@
+:root {
+--white: hsl(0, 0%, 100%);
+--lightPink: hsl(275, 100%, 97%);
+--grayishPurple: hsl(292, 16%, 49%);
+--darkPurple: hsl(292, 42%, 14%);
+}
+
+/* Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-color: var(--lightPink);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 90vw;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.heading-container {
+    display: flex;
+}
+
+#icon-star {
+    padding: 0 1rem 0 0;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--darkPurple);
+    font-size: 3rem;
+}
+
+.faq {
+    font-weight: 600;
+    color: var(--darkPurple);
+    margin: 1rem 0;
+    
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1px solid lightgray;
+  margin: .5rem 0;
+  
+}
+
+.no-border {
+  border-bottom: none;
+  margin: 0;
+}
+
+#accordion-answer-1, #accordion-answer-2, #accordion-answer-3, #accordion-answer-4 {
+  display: none;
+}
+
+.answer {
+  color: var(--grayishPurple);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center; 
+}
+    
+.attribution a {
+  color: var(--darkPurple);
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 376px) {
+  body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+  }
+
+  .accordion-container {
+    width: 80vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-attachment: fixed;
+  }
+
+  .accordion-container {
+    width: 80vw;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  
+  body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-attachment: fixed;
+  }
+  
+  .accordion-container {
+    width: 35rem;
+  }
+}
