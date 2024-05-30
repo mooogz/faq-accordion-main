@@ -10,6 +10,7 @@ let answerButton4 = document.getElementById('answer-4');
 answerButton.addEventListener('click', function showAnswer() {
     if(answerButton.getAttribute('src') === 'assets/images/icon-plus.svg') {
         answerButton.setAttribute('src', 'assets/images/icon-minus.svg');
+        answerButton.setAttribute("alt", "Minus Icon");
         answer.style.display = 'block';
     } else {
         answerButton.setAttribute('src', 'assets/images/icon-plus.svg')
@@ -21,6 +22,7 @@ answerButton.addEventListener('click', function showAnswer() {
 answerButton2.addEventListener('click', function showAnswer() {
     if(answerButton2.getAttribute('src') === 'assets/images/icon-plus.svg') {
         answerButton2.setAttribute('src', 'assets/images/icon-minus.svg');
+        answerButton2.setAttribute("alt", "Minus Icon");
         answer2.style.display = 'block';
     } else {
         answerButton2.setAttribute('src', 'assets/images/icon-plus.svg')
@@ -31,6 +33,7 @@ answerButton2.addEventListener('click', function showAnswer() {
 answerButton3.addEventListener('click', function showAnswer() {
     if(answerButton3.getAttribute('src') === 'assets/images/icon-plus.svg') {
         answerButton3.setAttribute('src', 'assets/images/icon-minus.svg');
+        answerButton3.setAttribute("alt", "Minus Icon");
         answer3.style.display = 'block';
     } else {
         answerButton3.setAttribute('src', 'assets/images/icon-plus.svg')
@@ -41,6 +44,7 @@ answerButton3.addEventListener('click', function showAnswer() {
 answerButton4.addEventListener('click', function showAnswer() {
     if(answerButton4.getAttribute('src') === 'assets/images/icon-plus.svg') {
         answerButton4.setAttribute('src', 'assets/images/icon-minus.svg');
+        answerButton4.setAttribute("alt", "Minus Icon");
         answer4.style.display = 'block';
     } else {
         answerButton4.setAttribute('src', 'assets/images/icon-plus.svg')
